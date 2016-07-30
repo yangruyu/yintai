@@ -18,6 +18,7 @@ img{border:0;}
 	margin-top:-270px;
 	right: 15px;
 	display: none;
+	z-index: 3423423;
 }
  .jump li{
 	width: 100%;
@@ -246,10 +247,10 @@ img{border:0;}
 
 
        /* 头部下图片 */
-.tb-xtp{
-	width:auto;
+.tb-xtp img{
+	max-width: 1400px;
 	height: 80px;
-	background: red;
+	margin:0 auto;
 }
 
 
@@ -784,8 +785,13 @@ img{border:0;}
 .cd-tp:hover{
 	transform: translateX(-15px);
 }
- 
 
+.aaa{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
 /*  banner 下商品展示 */
 .xspzs-k{
 	width: 1200px;
@@ -901,7 +907,7 @@ img{border:0;}
 
 /* 商品下色块 */
 .spxsk img{
-	margin-left: 75px;
+	margin-left: 0px;
 
 }
 
@@ -1100,7 +1106,7 @@ img{border:0;}
 
 /* 时尚名品上图片 */
 .ssppstp img{
-	margin-left: 75px;
+	margin-left: 0px;
 }
 
 
@@ -2313,11 +2319,11 @@ img{border:0;}
 	opacity: 0.6;
 }
 .xzqxt img{
-	margin-left: 75px;
+	margin-left: 0px;
 	margin-top:30px;
 }
 .xzqxt1 img{
-	margin-left: 75px;
+	margin-left: 0px;
 	margin-top:40px;
 }
 
