@@ -257,12 +257,17 @@ img{border:0;}
 
       /* 搜索框 */
 .ssk-k{
-	width: auto;
+	width: 1200px;
 	height: 120px;
+	margin: 0 auto;
 }
 .ssk-t{
-	margin-left: 80px;
 	float: left;
+}
+.ssk-t img{
+	width: 100%;
+	height: 100px;
+
 }
 .ssk-yk{
 	width: 757px;
@@ -354,41 +359,41 @@ img{border:0;}
 	text-decoration: underline;
 }
 
-
-
-         /* 导航栏 */
+/* 导航栏 */
 .dhl-k{
-	width: auto;
+   width: auto;
 	height:39px;
 	border-bottom:1px solid #000;
+}
+.aaa{
+	width:1200px;
+	height: 39px;
+	margin:0  auto;
 }
 .dh-qbfl{
 	width: 210px;
 	height: 39px;
 	background: #222222;
-	float: left;
 	font-size: 20px;
 	text-align: center;
 	color: #fff;
-	margin-left: -415px;
-	_margin-left:40px;
 	line-height: 39px;
+	float:left;
+	margin-left: 5px;
 }
 .dh-dhk{
 	width: 600px;
 	height: 39px;
 	float: left;
-	margin-left:-205px;
-	_margin-left:0px;
 }
 
 .dh-z1{
 	float: left;
 	font-size: 20px;
 	color: #323333;
-	margin-left: 38px;
 	line-height: 39px;
 	position: relative;
+	margin-left: 30px;
 }
 .dh-z1:hover{
 	color: #E5004F;
@@ -400,15 +405,16 @@ img{border:0;}
 	position: absolute;
 	top:36px;left: 0;
 	display: none;
+	float: left;
 
 }
 .dh-z2{
 	float: left;
 	font-size: 20px;
 	color: #323333;
-	margin-left: 38px;
 	line-height: 39px;
 	position: relative;
+	margin-left: 30px;
 }
 .dh-z2:hover{
 	color: #E5004F;
@@ -421,14 +427,15 @@ img{border:0;}
 	top:36px;left: 0;
 	display: none;
 
+
 }
 .dh-z3{
 	float: left;
 	font-size: 20px;
 	color: #323333;
-	margin-left: 38px;
 	line-height: 39px;
 	position: relative;
+	margin-left: 30px;
 }
 .dh-z3:hover{
 	color: #E5004F;
@@ -446,9 +453,9 @@ img{border:0;}
 	float: left;
 	font-size: 20px;
 	color: #323333;
-	margin-left: 38px;
 	line-height: 39px;
 	position: relative;
+	margin-left: 30px;
 }
 .dh-z4:hover{
 	color: #E5004F;
@@ -467,9 +474,9 @@ img{border:0;}
 	float: left;
 	font-size: 20px;
 	color: #323333;
-	margin-left: 38px;
 	line-height: 39px;
 	width: 100px;
+	margin-left: 30px;
 }
 .dh-z5:hover{
 	color: #E5004F;
@@ -508,7 +515,6 @@ img{border:0;}
 	color: #DBCBDB;
 	line-height: 39px;
 }
-
 
 
 
